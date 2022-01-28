@@ -19,6 +19,6 @@ jobs:
       - name: Run command feast apply
         run: |
           sudo apt-get install python3 
-          ls -la
-#pip install -r requirements.txt
+          sudo pip install feast
+          feast apply
 #echo Command run successfull!
